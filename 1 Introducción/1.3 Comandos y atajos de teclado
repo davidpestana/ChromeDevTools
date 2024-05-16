@@ -1,0 +1,28 @@
+**Atajos de Teclado y Comandos en Chrome DevTools:**
+
+**Windows:**
+1. **Atajos de Teclado Generales:**
+   - `Ctrl + Shift + I`: Abre las herramientas de desarrollo.
+   - `Ctrl + Shift + J`: Abre la consola JavaScript.
+   - `Ctrl + Shift + C`: Activa la herramienta de inspección de elementos.
+   - `Ctrl + Shift + P`: Abre el menú de comandos.
+   - `Ctrl + R`: Recarga la página.
+
+**macOS:**
+1. **Atajos de Teclado Generales:**
+   - `Cmd + Option + I`: Abre las herramientas de desarrollo.
+   - `Cmd + Option + J`: Abre la consola JavaScript.
+   - `Cmd + Option + C`: Activa la herramienta de inspección de elementos.
+   - `Cmd + Shift + P`: Abre el menú de comandos.
+   - `Cmd + R`: Recarga la página.
+
+**Linux:**
+1. **Atajos de Teclado Generales:**
+   - `Ctrl + Shift + I`: Abre las herramientas de desarrollo.
+   - `Ctrl + Shift + J`: Abre la consola JavaScript.
+   - `Ctrl + Shift + C`: Activa la herramienta de inspección de elementos.
+   - `Ctrl + Shift + P`: Abre el menú de comandos.
+   - `Ctrl + R`: Recarga la página.
+
+**Nota:** Estos atajos de teclado pueden variar dependiendo de la configuración del sistema operativo y del teclado.
+
