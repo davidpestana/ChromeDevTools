@@ -1,5 +1,3 @@
-Entendido, vamos a introducir un error algorítmico en la aplicación que los alumnos deberán detectar y depurar. Aquí tienes los pasos para implementarlo:
-
 1. **Modificar el archivo script.js:**
    ```javascript
    // Generar un array con números del 1 al 5
