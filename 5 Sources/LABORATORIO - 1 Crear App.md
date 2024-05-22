@@ -1,5 +1,3 @@
-Tienes toda la razón, lo ideal es instalar las dependencias antes de usarlas. Aquí tienes los pasos corregidos:
-
 1. **Inicialización del proyecto:**
 ```bash
 mkdir mi-proyecto
