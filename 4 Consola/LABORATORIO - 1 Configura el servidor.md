@@ -15,6 +15,7 @@ En esta iteración, configuraremos un servidor básico utilizando Node.js para s
    - Instala las dependencias necesarias ejecutando el comando `npm install express` en la terminal.
 
 3. **Creación de Archivos:**
+   - Crea un directorio llamado `public` en el que introduciremos los contenidos estáticos de la aplicación.
    - Crea un archivo HTML llamado `index.html` con el siguiente contenido:
 
 ```html
@@ -59,7 +60,7 @@ p {
 ```
 
 4. **Configuración del Servidor:**
-   - Crea un archivo llamado `server.js` con el siguiente contenido:
+   - Crea un archivo llamado `server.js` fuera del directorio public, ya que no es un contenido de la aplicación si no el servidor de la misma con el siguiente contenido:
 
 ```javascript
 const express = require('express');
