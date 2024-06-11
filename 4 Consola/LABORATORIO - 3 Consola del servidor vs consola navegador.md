@@ -23,7 +23,7 @@ app.use(express.static('public'));
 
 app.get('/server-console', (req, res) => {
   console.log('¡Mensaje enviado a la consola del servidor!');
-  res.send('Mensaje enviado a la consola del servidor');
+  res.send('Mensaje enviado al navegador desde el servidor');
 });
 
 app.listen(port, () => {
@@ -38,7 +38,8 @@ app.listen(port, () => {
 ```javascript
 // Función para enviar un mensaje a la consola del navegador
 function sendToBrowserConsole() {
-  console.log('¡Mensaje enviado a la consola del navegador!');
+  console.log('¡Mensaje enviado a la consola del navegador cuando se pulsa el boton!');
+  fetch('http://localhost:3000/server-console').then(mensaje => console.log('mensaje recibido del servidor', mensaje);
 }
 
 // Asigna la función al evento de clic del botón
