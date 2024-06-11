@@ -39,7 +39,9 @@ app.listen(port, () => {
 // Función para enviar un mensaje a la consola del navegador
 function sendToBrowserConsole() {
   console.log('¡Mensaje enviado a la consola del navegador cuando se pulsa el boton!');
-  fetch('http://localhost:3000/server-console').then(mensaje => console.log('mensaje recibido del servidor', mensaje);
+      fetch('http://localhost:3000/server-console')
+        .then(response=>response.json())
+        .then(mensaje => console.log('mensaje recibido del servidor', mensaje));
 }
 
 // Asigna la función al evento de clic del botón
