@@ -23,7 +23,7 @@ app.use(express.static('public'));
 
 app.get('/server-console', (req, res) => {
   console.log('¡Mensaje enviado a la consola del servidor!');
-  res.send('Mensaje enviado al navegador desde el servidor');
+  res.json('Mensaje enviado al navegador desde el servidor');
 });
 
 app.listen(port, () => {
