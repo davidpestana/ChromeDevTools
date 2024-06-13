@@ -73,7 +73,7 @@ const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 let currentPage = 1;
 
-function displayData(data) {
+function displayData(item) {
     const productCard = document.createElement('div');
     productCard.classList.add('product-card');
     productCard.innerHTML = `
