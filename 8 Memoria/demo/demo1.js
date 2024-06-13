@@ -1,13 +1,11 @@
-var detachedTree;
-
 
 create = () => {
     var ul = document.createElement("ul");
-    for(var i = 0; i < 10; i++) {
-        var li = document.createElement("li");
-        ul.appendChild(li);
+    for(var i = 0; i < 1000; i++) {
+        let li = document.createElement("li");
+        ul.append(li);
+        console.log(ul);
     }
-    detachedTree = ul;
     alert("Created");
 }
 
