@@ -82,8 +82,8 @@ function displayData(data) {
       <p>Category: ${item.category}</p>
     `;
     return productCard;
-  });
-}
+};
+
 
 
 function fetchData(page) {
@@ -92,8 +92,8 @@ function fetchData(page) {
     .then(data => {
       // Renderizar los datos en el contenedor
       dataContainer.innerHTML = '';
-      data.forEach(data => {
-        const div = displayData(data);
+      data.forEach(item => {
+        const div = displayData(item);
         dataContainer.appendChild(div);
       });
     })
