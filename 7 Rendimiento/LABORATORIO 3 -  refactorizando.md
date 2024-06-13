@@ -9,6 +9,7 @@ npm install express
 ```javascript
 const express = require('express');
 const app = express();
+const allData = generateData();
 
 // Endpoint para obtener datos paginados
 app.get('/data', (req, res) => {
@@ -19,6 +20,20 @@ app.get('/data', (req, res) => {
   const paginatedData = allData.slice(startIndex, endIndex);
   res.json(paginatedData);
 });
+
+
+function generateData() {
+  const data = [];
+  for (let i = 0; i < 1000; i++) {
+    data.push({
+      id: i + 1,
+      name: `Product ${i + 1}`,
+      price: Math.floor(Math.random() * (1000 - 10 + 1)) + 10, // Precio aleatorio entre 10 y 1000
+      category: ['Electronics', 'Clothing', 'Books'][Math.floor(Math.random() * 3)] // Categoría aleatoria
+    });
+  }
+  return data;
+}
 
 app.listen(3000, () => {
   console.log('Servidor iniciado en el puerto 3000');
