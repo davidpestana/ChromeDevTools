@@ -73,15 +73,27 @@ const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 let currentPage = 1;
 
+function displayData(data) {
+    const productCard = document.createElement('div');
+    productCard.classList.add('product-card');
+    productCard.innerHTML = `
+      <h2>${item.name}</h2>
+      <p>Price: $${item.price}</p>
+      <p>Category: ${item.category}</p>
+    `;
+    return productCard;
+  });
+}
+
+
 function fetchData(page) {
   fetch(`/data?page=${page}`)
     .then(response => response.json())
     .then(data => {
       // Renderizar los datos en el contenedor
       dataContainer.innerHTML = '';
-      data.forEach(item => {
-        const div = document.createElement('div');
-        div.textContent = item;
+      data.forEach(data => {
+        const div = displayData(data);
         dataContainer.appendChild(div);
       });
     })
