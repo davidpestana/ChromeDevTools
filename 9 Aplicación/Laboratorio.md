@@ -5,10 +5,10 @@ Aprender a usar el panel de aplicaciones en Google DevTools para analizar y depu
 
 #### Materiales Necesarios
 - Navegador Google Chrome.
-- Una aplicación web para analizar (utilizaremos una aplicación de ejemplo: [To-Do MVC](https://todomvc.com/examples/react/)).
+- Una aplicación web para analizar (utilizaremos una aplicación de ejemplo: [To-Do MVC](https://todomvc.com/examples/react/dist/)).
 
 #### Paso 1: Acceder a Google DevTools
-1. Abre Google Chrome y navega a la aplicación de ejemplo [To-Do MVC](https://todomvc.com/examples/react/).
+1. Abre Google Chrome y navega a la aplicación de ejemplo [To-Do MVC](https://todomvc.com/examples/react/dist/).
 2. Presiona `F12` o `Ctrl + Shift + I` (en Windows) o `Cmd + Option + I` (en Mac) para abrir DevTools.
 3. Haz clic en la pestaña **Application**.
 
