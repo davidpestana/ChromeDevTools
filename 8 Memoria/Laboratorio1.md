@@ -4,6 +4,7 @@ Este laboratorio te guiará paso a paso para aprender a usar las herramientas de
 
 #### Prerrequisitos
 1. Tener Google Chrome instalado.
+
 2. Conocimiento básico de HTML, CSS y JavaScript.
 3. Una aplicación web sencilla para probar (puedes usar una página web estática o cualquier proyecto en el que estés trabajando).
 
